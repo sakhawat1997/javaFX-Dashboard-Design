@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="877.0" prefWidth="1238.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.Controller">
+   <children>      <VBox prefHeight="877.0" prefWidth="317.0" style="-fx-background-color: #9B7580;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="145.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="70.0" top="30.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@image/sakhawat.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="33.0" prefWidth="156.0" text="Sakhawat Tahsan" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="20.0" left="70.0" />
+               </VBox.margin>
+            </Label>
+            <Button alignment="TOP_LEFT" graphicTextGap="25.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="325.0" stylesheets="@style.css" text="Overview" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8_home_50px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="25.0" layoutX="10.0" layoutY="177.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="322.0" stylesheets="@style.css" text="Order" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8_archive_folder_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="25.0" layoutX="10.0" layoutY="221.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="328.0" stylesheets="@style.css" text="Customer" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8_user_50px_2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="25.0" layoutX="10.0" layoutY="265.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="320.0" stylesheets="@style.css" text="Menus" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8_menu_64px_1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="25.0" layoutX="10.0" layoutY="309.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="319.0" stylesheets="@style.css" text="Package" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8_package_64px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="25.0" layoutX="10.0" layoutY="353.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="319.0" stylesheets="@style.css" text="Settings" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8_maintenance_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button alignment="TOP_LEFT" graphicTextGap="25.0" layoutX="10.0" layoutY="397.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="322.0" stylesheets="@style.css" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/icons8_shutdown_40px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="335.0" layoutY="8.0" prefHeight="53.0" prefWidth="206.0" text="Restaurant Order">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="329.0" layoutY="66.0" prefHeight="120.0" prefWidth="883.0" spacing="60.0" style="-fx-background-color: #E9E9E9;" AnchorPane.topAnchor="66.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="120.0" prefWidth="147.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="94.0" text="2200" textFill="#4285f4">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Total Order">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="120.0" prefWidth="147.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="94.0" text="1500" textFill="#23a8f2">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Total Delivery">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="157.0" layoutY="10.0" prefHeight="120.0" prefWidth="147.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="94.0" text="900" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Pending Order">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="304.0" layoutY="10.0" prefHeight="120.0" prefWidth="147.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="94.0" text="600" textFill="#ed2147">
+                     <font>
+                        <Font name="System Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Orders on Hold">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="50.0" />
+         </padding></HBox>
+      <HBox alignment="CENTER" layoutX="329.0" layoutY="201.0" prefHeight="44.0" prefWidth="883.0" style="-fx-background-color: #E9E9E9;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="BOTTOM" text="Company Name">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="10.0" layoutY="10.0" text="Airport">
+               <HBox.margin>
+                  <Insets left="90.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="96.0" layoutY="10.0" text="Delivery Date">
+               <HBox.margin>
+                  <Insets left="90.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="182.0" layoutY="10.0" text="Amount">
+               <HBox.margin>
+                  <Insets left="90.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="BOTTOM" layoutX="268.0" layoutY="10.0" text="Status">
+               <HBox.margin>
+                  <Insets left="90.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="331.0" layoutY="282.0" prefHeight="576.0" prefWidth="883.0" style="-fx-background-color: #E9E9E9;">
+         <content>
+            <VBox fx:id="pnItems" prefHeight="575.0" prefWidth="885.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
